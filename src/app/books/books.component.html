@@ -1,0 +1,30 @@
+<div class="container">
+    <h1 style="color:white">Bookstore <button class="btn btn-light" style="margin-left: 75%; border: none;" routerLink="../add">Add Book</button></h1>
+    
+  <div class="">
+    <table class="book-row">
+        <tbody class="">
+            <thead class="titles">
+                <th>Name</th>
+                <th>Author</th>
+                <th>Release Date</th>
+                <th>Genre</th>
+                <th>Description</th>
+              </thead>
+              <input type="email" class="form-control" id="search-text" aria-describedby="search-text" 
+              [(ngModel)]="searchText" placeholder="Search for book" autofocus>
+          <tr class="book-row-details" *ngFor="let book of books | appFilter: searchText">
+            <td>
+              <ul class="bookul" id="bookList">
+                <li routerLink="../details/{{book.id}}" title="Name" style="border-right: 1px solid;">{{book.name}}</li>
+                <li routerLink="../details/{{book.id}}" title="Author" style="border-right: 1px solid;">{{book.author}}</li>
+                <li routerLink="../details/{{book.id}}" title="Release Year" style="border-right: 1px solid;">{{book.releaseYear | date:'yyyy-MM-dd'}}</li>
+                <li routerLink="../details/{{book.id}}" title="Genre" style="border-right: 1px solid;">{{book.genre}}</li>
+                <li routerLink="../details/{{book.id}}" title="Description">{{book.description}}</li>
+              </ul>
+            </td>
+          </tr>
+        </tbody>
+    </table>
+  </div>
+</div>

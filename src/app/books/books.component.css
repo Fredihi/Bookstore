@@ -1,0 +1,145 @@
+
+.container{
+    padding:3em;
+    max-width: 1800px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.container h1{
+    margin: 0;
+}
+.container button{
+    padding: 10px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+.data{
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+}
+.header{
+    display:flex;
+    margin-left:50px;
+    font-weight: bolder;
+    font-size:30px;
+}
+
+.book-row{
+    width: 100%;
+    position: relative;
+    padding-right: 15px;
+}
+.book-row-details{
+    width: 100%;
+    background: white;
+    display: flex;
+    margin: 0.2em;
+    cursor: pointer;
+    color:black;
+     
+    font-weight: bold;
+    border-radius: 6px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    
+}
+.bookul{
+    width: 100%;
+    height: 100%;
+    display: table;
+    table-layout:fixed;
+    border-collapse: collapse;
+    
+}
+.bookul li{
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    word-wrap: break-word;
+    padding: 5px;
+}
+.bookul a{
+    display: table-cell;
+    position: fixed;
+    
+    text-align: center;
+    vertical-align: center;
+}
+.titles{
+    width: 100%;
+    height: 50px;
+    display: table;
+    table-layout: fixed;
+    background: white;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-collapse: separate;
+    margin-top: 5px;
+}
+.titles th{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    padding: 5px;
+    font-size: 20px;
+    
+}
+.icon-table{
+    height: 100%;
+    width: 100%;
+    border: 1px black;
+    display: table;
+    table-layout: fixed;
+    background:white;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.icon-table tbody{
+    display: table-cell;
+    text-align: center;
+}
+/* .table1-div{
+    width: 100%;
+    position: absolute;
+    padding-right: 15px;
+} */
+.table2-div{
+    height: 100%;
+    width: 10%;
+    float:right;
+}
+.icons{
+    padding-left: 10px;
+}
+.searchInput{
+    border-width: 1px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+.form-control{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}

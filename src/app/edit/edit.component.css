@@ -1,0 +1,51 @@
+.container{
+    padding:3em;
+    max-width: 1800px;
+    height: 100%;
+    margin: 0 auto;
+}
+h1{
+    color: white;
+}
+.details{
+    display: flex;
+    background:white;
+    color:black;
+    width: 50%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 20px;
+}
+.detailsinfo{
+    width:100%;
+}
+.detailsinfo span{
+    font-size: 20px;
+}
+.detailsinfo h4{
+    color: black;
+    font-weight: bold;
+    margin-top: 10px;
+    text-decoration:underline;
+}
+.detailsinfo button{
+    width: 75px;
+}
+.editTitle{
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: underline;
+}
+.editInfo{
+    border:none;
+    font-size: 20px;
+    width:100%;
+}
+.editDesc{
+    border:none;
+    font-size: 20px;
+}
